@@ -4,7 +4,7 @@
 En esta pantalla el usuario introduce su correo electrónico y contraseña, además elige el tipo de usuario que es dependiendo su rol, profesor o estudiante.
 
 **Pantalla 02 Profesor: Inicio**
- <img src="img/inicioP.png" height="auto" width="100%" />
+ <img src="img/iniciop.png" height="auto" width="100%" />
 
 Esta es la pantalla de inicio del profesor, contiene una bienvenida, donde además tiene acceso a un menú con diferentes opciones entre ellas, Inicio (actual pagina), información de los estudiantes y las materia que el profesor imparte, donde en esa podrá asignar tarea.
 
@@ -20,12 +20,12 @@ Esta es la pantalla donde el profesor puede pasar lista, cambiando el estado del
 estudiante.
 
 **Pantalla 05 profesor: Programación 2**
- <img src="./img/programacion.png" height="auto" width="100%" />
+ <img src="./img/prog.png" height="auto" width="100%" />
 
 Esta pantalla corresponde a la materia que imparte el profesor donde el mismo puede elegir una acción a realizar como asignar, editar, remover y enlistar tareas.
 
 **Pantalla 06 profesor: Asignar, editar y remover tareas**
- <img src="./img/asignar.png" height="auto" width="100%" />
+ <img src="./img/Asignar.png" height="auto" width="100%" />
 
 Esta pantalla corresponde a la materia que imparte el profesor donde el mismo ha elegido la opción de asignar, editar y remover tareas.
 
