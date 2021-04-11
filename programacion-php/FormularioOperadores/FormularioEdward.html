@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Basico</title>
+    <link rel="stylesheet" href="../bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="library/fontawesome/css/all.min.css">
+</head>
+<body background="../IMG/fondo1.jpg"></body>
+        <!-- Header -->
+        <section class="hero is-dark">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                        <center>Formulario basico</center> 
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <h1> <strong>Completa el siguiente formulario con tus datos personales</strong>   </h1>
+        <hr color="black" size=10 width="450"> <!-- raya -->
+        <!-- Formulario html -->
+
+        <!-- de que forma se va a enviar la informacion get y post, action es a donde queremos enviar la informacion -->
+        <form action="FormularioEdward.html" ,method="get">
+            <label for="Nombre">Nombre</label>  
+                <input type="text" id="Nombre" placeholder="Escribe tu nombre" required> <br><!-- Tipo text solo puede introducir texto-->
+            <label for="dni">Cedula</label>
+                <input type="numbers" id="dni" placeholder="Escribe tu cedula" required> <br>  <!--Tipo number solo puede introducir numero -->
+            <label for="Email">Email</label> 
+                <input type="email" id="Contraseña" placeholder="Escribe tu Email" > <br> <!--tipo email necesita recibir un correo -->
+            <label for="Contraseña">Contraseña</label>
+                <input type="password" id="Contraseña" placeholder="Escribe tu Contraseña"required >  <br> <!-- Password olcultara el contenido -->
+            <label for="">Sexo</label> <br>
+                <input type="radio" name="Sexo"> Masculino <br> <!-- radio para seleccionar la respuesta correcta siempre sera una y le puedes poner un nombre para que lo indetique y solo se seleccione uno-->
+                <input type="radio" name="Sexo">Femenino <br>
+
+            <label for="">Nivel de estudio</label> <br>
+                <input type="checkbox" > No tiene estudio <br> <!--Con checkbox puede seleccionar varios -->
+                <input type="checkbox" >Tecnico <br>
+                <input type="checkbox" >Universitario <br>
+
+        <label for="">Pais de residencia</label> <br>
+            <select name="" id="">
+                <option value="">Peru</option>
+                <option value="">Francia</option>
+                <option value="">Colombia</option>
+                <option value="">Reoublica Domninicana</option>
+                <option value="">Haiti</option>
+            </select>  <!--El select es una etiqueta muy buena ya que nos perite seleccionar opciones, Option sirve para darnos las distintas opcioneas a seleccionar -->
+            <!--Solo puedes escoger una.--><br>
+
+        <label for="">Color</label> <br>
+            <input type="color">    <br>    <!--Como su nombre lo indica nos muestra una barra de colores -->
+        <label for="">Fecha</label> <br>
+            <input type="date"> . <br><!-- Fecha -->
+         <label for="">Hora</label> <br>
+            <input type="time"> <br> .  <!-- hora --> 
+
+         <label for="">Archivos</label> <br>
+         <input type="file"> <br>  <!-- para seleccionar archivo --> 
+
+         <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        <!-- required es un atributo y pide que llenes obligatoriaamente un input-->
+            <input type="reset"> <br>  <!-- para restablecer el formulario --> 
+            <input type="submit">  <br> <!--submit es para enviar el formulario -->
+        </form>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Hecho con HTML:5</i> por </strong> <a href="https://www.facebook.com/EdwardBritoDiaz/" target="_blank">Edward Brito Diaz</a>.
+                </p>
+            </div>
+        </footer
+</body>
+</html>
