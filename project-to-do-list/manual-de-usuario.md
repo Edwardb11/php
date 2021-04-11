@@ -30,7 +30,7 @@ Esta pantalla corresponde a la materia que imparte el profesor donde el mismo pu
 Esta pantalla corresponde a la materia que imparte el profesor donde el mismo ha elegido la opción de asignar, editar y remover tareas.
 
 **Pantalla 07 profesor: Editar tareas**
- <img src="./img/editar.png" height="auto" width="100%" />
+ <img src="./img/Editar.png" height="auto" width="100%" />
 
 Esta pantalla corresponde la modificación de una tarea.
 
@@ -41,18 +41,18 @@ Esta pantalla corresponde a la materia que imparte el profesor donde el mismo ha
 
 
 **Pantalla 01: Login**
- <img src="./img/loginE.png" height="auto" width="100%" />
+ <img src="./img/LoginE.png" height="auto" width="100%" />
 
 En esta pantalla el usuario introduce su correo electrónico y contraseña, además elige el tipo de usuario que es dependiendo su rol, profesor o estudiante.
 
 **Pantalla 02 estudiante: Inicio**
- <img src="./img/inicioE.png" height="auto" width="100%" />
+ <img src="./img/InicioE.png" height="auto" width="100%" />
 
 
 Esta es la pantalla de inicio del estudiante, contiene una bienvenida, donde además tiene acceso a un menú con diferentes opciones entre ellas, Inicio (actual pagina), información del estudiante logueado y las materias que esta cursando.
 
 **Pantalla 03 estudiante: Información del estudiante**
- <img src="./img/infoE.png" height="auto" width="100%" />
+ <img src="./img/InfoE.png" height="auto" width="100%" />
 
 
 Esta es la pantalla se muestra la información del estudiante logueado.
@@ -64,7 +64,7 @@ Esta es la pantalla donde el estudiante ve todas las asignaciones de la materia
 correspondiente.
 
 **Pantalla 05 estudiante: Realizar tarea**
- <img src="./img/realizar.png" height="auto" width="100%" />
+ <img src="./img/Realizar.png" height="auto" width="100%" />
 
 
 Esta es la pantalla donde el estudiante podrá realizar la asignación seleccionada.
