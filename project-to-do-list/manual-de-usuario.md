@@ -4,17 +4,17 @@
 En esta pantalla el usuario introduce su correo electrónico y contraseña, además elige el tipo de usuario que es dependiendo su rol, profesor o estudiante.
 
 **Pantalla 02 Profesor: Inicio**
- <img src="./img/inicioP.png" height="auto" width="100%" />
+ <img src="./img/InicioP.png" height="auto" width="100%" />
 
 Esta es la pantalla de inicio del profesor, contiene una bienvenida, donde además tiene acceso a un menú con diferentes opciones entre ellas, Inicio (actual pagina), información de los estudiantes y las materia que el profesor imparte, donde en esa podrá asignar tarea.
 
 **Pantalla 03 Profesor: Información de los estudiantes**
- <img src="./img/informacionP.png" height="auto" width="100%" />
+ <img src="./img/InformacionP.png" height="auto" width="100%" />
 
 Esta es la pantalla de información de los estudiantes donde el profesor puede ver todos los estudiantes y de igual forma puede pasar lista cambiando el estado.
 
 **Pantalla 04 profesor: Editar asistencia**
- <img src="./img/Asistencia.png" height="auto" width="100%" />
+ <img src="./img/asistencia.png" height="auto" width="100%" />
 
 Esta es la pantalla donde el profesor puede pasar lista, cambiando el estado del
 estudiante.
