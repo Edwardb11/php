@@ -20,17 +20,17 @@ Esta es la pantalla donde el profesor puede pasar lista, cambiando el estado del
 estudiante.
 
 **Pantalla 05 profesor: Programación 2**
- <img src="img/programacion.png" height="auto" width="100%" />
+ <img src="./img/programacion.png" height="auto" width="100%" />
 
 Esta pantalla corresponde a la materia que imparte el profesor donde el mismo puede elegir una acción a realizar como asignar, editar, remover y enlistar tareas.
 
 **Pantalla 06 profesor: Asignar, editar y remover tareas**
- <img src="img/asignar.png" height="auto" width="100%" />
+ <img src="./img/asignar.png" height="auto" width="100%" />
 
 Esta pantalla corresponde a la materia que imparte el profesor donde el mismo ha elegido la opción de asignar, editar y remover tareas.
 
 **Pantalla 07 profesor: Editar tareas**
- <img src="img/editar.png" height="auto" width="100%" />
+ <img src="./img/editar.png" height="auto" width="100%" />
 
 Esta pantalla corresponde la modificación de una tarea.
 
