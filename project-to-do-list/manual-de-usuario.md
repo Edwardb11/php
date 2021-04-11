@@ -19,7 +19,6 @@ Esta es la pantalla de información de los estudiantes donde el profesor puede v
 Esta es la pantalla donde el profesor puede pasar lista, cambiando el estado del
 estudiante.
 
-
 **Pantalla 05 profesor: Programación 2**
  <img src="./img/programacion.png" height="auto" width="100%" />
 
