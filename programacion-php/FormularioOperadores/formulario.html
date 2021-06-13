@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Formulario</h1>
+    <form>
+        <label for="dni">Dni</label>
+        <input type="number" id="dni" placeholder="Escribe tu DNI" required> <br>
+        <!--Tipo number solo puede introducir numero -->
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" placeholder="Escribe tu nombre" required> <br>
+        <!-- Tipo text solo puede introducir texto-->
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" id="Contraseña" placeholder="Escribe tu Contraseña" required> <br>
+        <!-- Password olcultara el contenido -->
+        <label for="Email">Email</label>
+        <input type="email" id="Contraseña" placeholder="Escribe tu Email"> <br>
+        <!--tipo email necesita recibir un correo -->
+
+
+        <label for="">Sexo</label> <br>
+        <input type="radio" name="Sexo"> Masculino <br>
+        <!-- radio para seleccionar la respuesta correcta siempre sera una y le puedes poner un nombre para que lo indetique y solo se seleccione uno-->
+        <input type="radio" name="Sexo">Femenino <br>
+
+        <label for="">Nivel de estudio</label> <br>
+        <input type="checkbox"> No tiene estudio <br>
+        <!--Con checkbox puede seleccionar varios -->
+        <input type="checkbox">Tecnico <br>
+        <input type="checkbox">Universitario <br>
+
+        <label for="">Paises</label> <br>
+        <select name="" id="">
+                <option value="">  Peru   </option>
+                <option value="">Francia</option>
+                <option value="">COLOMBIA</option>
+            </select>
+        <!--El select es una etiqueta muy buena ya que nos perite seleccionar opciones, Option sirve para darnos las distintas opcioneas a seleccionar -->
+        <!--Solo puedes escoger una.--><br>
+
+        <label for="">Color</label> <br>
+        <input type="color"> <br>
+        <!--Como su nombre lo indica nos muestra una barra de colores -->
+        <label for="">Fecha</label> <br>
+        <input type="date"> . <br>
+        <!-- Fecha -->
+        <label for="">Hora</label> <br>
+        <input type="time"> <br> .
+        <!-- hora -->
+
+        <label for="">Archivos</label> <br>
+        <input type="file"> <br>
+        <!-- para seleccionar archivo -->
+        <label for="">Limpiar</label> <br>
+        <input type="reset"> <br>
+        <!-- para seleccionar archivo -->
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!-- required es un atributo y pide que llenes obligatoriaamente un input-->
+
+        <input type="submit"> <br>
+        <!--submit es para enviar el formulario -->
+    </form>
+</body>
+
+</html>
